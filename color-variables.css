@@ -1,0 +1,42 @@
+:root {
+    /* Blue and Orange */
+    --primary-color: #3498db; /* Main color for headers, links, etc. */
+    --complementary-color: #e74c3c; /* Complementary color for accents, buttons, etc. */
+  
+    /* Purple and Yellow */
+    --primary-color-purple: #9b59b6; /* Main color for headers, links, etc. */
+    --complementary-color-yellow: #f39c12; /* Complementary color for accents, buttons, etc. */
+  
+    /* Green and Red */
+    --primary-color-green: #2ecc71; /* Main color for headers, links, etc. */
+    --complementary-color-red: #e74c3c; /* Complementary color for accents, buttons, etc. */
+  
+    /* Teal and Coral */
+    --primary-color-teal: #008080; /* Main color for headers, links, etc. */
+    --complementary-color-coral: #ff6f61; /* Complementary color for accents, buttons, etc. */
+  
+    /* Dark Blue and Gold */
+    --primary-color-darkblue: #001f3f; /* Main color for headers, links, etc. */
+    --complementary-color-gold: #ffd700; /* Complementary color for accents, buttons, etc. */
+  
+    /* Olive and Burgundy */
+    --primary-color-olive: #808000; /* Main color for headers, links, etc. */
+    --complementary-color-burgundy: #800020; /* Complementary color for accents, buttons, etc. */
+  
+    /* Cyan and Red-Orange */
+    --primary-color-cyan: #00bcd4; /* Main color for headers, links, etc. */
+    --complementary-color-redorange: #ff5722; /* Complementary color for accents, buttons, etc. */
+  
+    /* Navy Blue and Peach */
+    --primary-color-navyblue: #001f3f; /* Main color for headers, links, etc. */
+    --complementary-color-peach: #ffc0cb; /* Complementary color for accents, buttons, etc. */
+  
+    /* Mint Green and Rose */
+    --primary-color-mintgreen: #98ff98; /* Main color for headers, links, etc. */
+    --complementary-color-rose: #ff5050; /* Complementary color for accents, buttons, etc. */
+  
+    /* Slate Gray and Salmon */
+    --primary-color-slategray: #708090; /* Main color for headers, links, etc. */
+    --complementary-color-salmon: #fa8072; /* Complementary color for accents, buttons, etc. */
+  }
+  

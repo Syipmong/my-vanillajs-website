@@ -1,32 +1,51 @@
-*{
-    padding: 0;
-    margin: 0;
+:root {
+  /* Purple and Yellow */
+  --primary-color-purple: #9b59b6; /* Main color for headers, links, etc. */
+  --complementary-color-yellow: #f39c12; /* Complementary color for accents, buttons, etc. */
 }
 
-
-.nav-bar{
-
-    width: 100vw;
-    background-color: aqua;
-    height: 5rem;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-ul{
-   
-    list-style-type: none;
+.nav-bar {
+  width: 100vw;
+  background-color: var(--primary-color-purple);
+  padding: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content:space-evenly;
+  
+    
+}
+
+li {
     display: flex;
-    justify-content: space-evenly;
-    
-    
+    justify-self: flex-end;
 }
 
-li{
-    
-    
-
+button {
+  background: none;
+  border: none;
+  background-color: var(--complementary-color-yellow);
+  padding: 10px;
+  border-radius: 5px;
 }
 
-button{
-    background: none;
-    border: none;
+.avatar{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.img-center{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-width: 100%;
 }
