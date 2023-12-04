@@ -1,7 +1,8 @@
 :root {
-  /* Purple and Yellow */
-  --primary-color-purple: #9b59b6; /* Main color for headers, links, etc. */
-  --complementary-color-yellow: #f39c12; /* Complementary color for accents, buttons, etc. */
+    /* Green and Red */
+    --primary-color: #2ecc71; /* Main color for headers, links, etc. */
+    --complementary-color: #e74c3c; /* Complementary color for accents, buttons, etc. */
+  
 }
 
 * {
@@ -12,7 +13,7 @@
 
 .nav-bar {
   width: 100vw;
-  background-color: var(--primary-color-purple);
+  background-color: var(--primary-color);
   padding: 2rem;
 }
 
@@ -32,7 +33,7 @@ li {
 button {
   background: none;
   border: none;
-  background-color: var(--complementary-color-yellow);
+  background-color: var(--complementary-color);
   padding: 10px;
   border-radius: 5px;
 }
@@ -44,8 +45,24 @@ button {
 }
 
 .img-center{
+    margin: 2em;
     display: flex;
     justify-content: center;
     max-width: 100%;
     max-width: 100%;
+}
+
+.main{
+   
+}
+
+.welcome h2{
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 1em;
+    color: var(--primary-color);
+}
+.welcome p{
+    padding: 5px;
+    margin: 5px;
 }
