@@ -1,4 +1,6 @@
 :root {
+
+
     /* Blue and Orange */
     --primary-color: #3498db; /* Main color for headers, links, etc. */
     --complementary-color: #e74c3c; /* Complementary color for accents, buttons, etc. */
@@ -38,5 +40,8 @@
     /* Slate Gray and Salmon */
     --primary-color-slategray: #708090; /* Main color for headers, links, etc. */
     --complementary-color-salmon: #fa8072; /* Complementary color for accents, buttons, etc. */
+
+
+
   }
   
