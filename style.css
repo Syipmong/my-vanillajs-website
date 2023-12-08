@@ -109,5 +109,18 @@ li:hover{
 @media only screen and (max-width:767px) and (min-device-width:320px) and (max-device-width:480px) {
   .stack h2{
     font-size: 1.5em;
+    
+  }
+  .items{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+  }
+  .item-3{
+    position: absolute;
+    top: 30px;
+
+  }.stack{
+    margin: 1px 30px;
   }
 }
