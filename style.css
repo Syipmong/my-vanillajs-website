@@ -13,28 +13,24 @@
 
 .nav-bar {
   width: 100vw;
-  background-color: var(--secondary-color);
   padding: 2rem;
+  border: 1px solid var(--primary-color);
+  box-shadow: 1px 2px 3px 2px var(--secondary-color);
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
 }
 
 li {
   display: flex;
   justify-self: flex-end;
+  margin-left: 10px;
 }
 
-button {
-  background: none;
-  border: none;
-  background-color: var(--accent-color);
-  padding: 10px;
-  border-radius: 5px;
-}
+
 
 .avatar {
   width: 200px;
