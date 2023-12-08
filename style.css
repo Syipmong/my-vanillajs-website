@@ -9,6 +9,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 .nav-bar {
@@ -80,7 +81,7 @@ li:hover{
 
 .items{
   width: 200px;
-  background: radial-gradient(circle at top left, #3498db,#8e44ad);
+  background: radial-gradient(circle at top left, #3498db,#d03d71);
   height: 200px;
   border-radius: 50%;
   opacity: 0.2;
