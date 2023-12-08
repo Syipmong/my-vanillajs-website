@@ -72,6 +72,38 @@ li:hover{
  margin-right: 10%;
 }
 
+.bubbles{
+  position: absolute;
+  width: 100%;
+ 
+}
+
+.items{
+  width: 200px;
+  background: radial-gradient(circle at top left, #3498db,#8e44ad);
+  height: 200px;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+.item-1{
+  position: absolute;
+  top: -350px;
+  left: 20px;
+ 
+}
+.item-2{
+  position: absolute;
+  top: -300px;
+  right: 30px;
+ 
+}
+
+.item-3{
+  position: absolute;
+  bottom: 2px;
+  left: 250px;
+ 
+}
 
 @media only screen and (max-width:767px) and (min-device-width:320px) and (max-device-width:480px) {
   .stack h2{
