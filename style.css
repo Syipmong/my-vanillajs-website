@@ -85,6 +85,7 @@ li:hover{
   height: 200px;
   border-radius: 50%;
   opacity: 0.2;
+  transition: bounce 2s infinite;
 }
 .item-1{
   position: absolute;
@@ -106,6 +107,23 @@ li:hover{
  
 }
 
+@keyframes bounce {
+  0%, 20%, 80%, 100%{
+    transform: translateY(
+      0);
+  }
+  40%{
+    transform: translateY(
+      20px);
+      }
+      60%{
+        transform: translateY(
+          90px);
+          }
+}
+
+
+
 @media only screen and (max-width:767px) and (min-device-width:320px) and (max-device-width:480px) {
   .stack h2{
     font-size: 1.5em;
@@ -124,3 +142,4 @@ li:hover{
     margin: 1px 30px;
   }
 }
+
