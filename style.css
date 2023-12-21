@@ -108,17 +108,19 @@ li:hover{
 }
 
 .body-contents{
+  margin: 0;
   position: relative;
-  width: 90vw;
-  height: 50vh;
+  width: 100%;
+  height: 200px;
   box-sizing: border-box;
   background-color: var(--secondary-color);
   display: flex;
+  justify-content: space-around;
 }
 
 .main-container{
   position: relative;
-  width: 30vw;
+  width: 300px;
   background-color: var(--primary-color);
 
 }
