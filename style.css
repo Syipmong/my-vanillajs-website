@@ -107,6 +107,13 @@ li:hover{
  
 }
 
+.body-contents{
+  width: 20em;
+  height: 10em;
+  background-color: var(--secondary-color);
+  display: flex;
+}
+
 @keyframes bounce {
   0%, 20%, 80%, 100%{
     transform: translateY(
