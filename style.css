@@ -109,14 +109,18 @@ li:hover{
 
 .body-contents{
   position: relative;
-  width: 100vw;
+  width: 90vw;
   height: 50vh;
+  box-sizing: border-box;
   background-color: var(--secondary-color);
+  display: flex;
 }
 
 .main-container{
   position: relative;
-  width: 100vw;
+  width: 30vw;
+  background-color: var(--primary-color);
+
 }
 
 @keyframes bounce {
